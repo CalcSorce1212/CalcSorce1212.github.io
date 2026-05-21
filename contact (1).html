@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact Us – MortgageWise</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{--navy:#0d1b2a;--gold:#c9a84c;--cream:#f9f5ee;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--navy);}
+nav{background:var(--navy);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px;position:sticky;top:0;z-index:100;}
+.logo{font-family:'Playfair Display',serif;color:var(--gold);font-size:1.5rem;font-weight:700;text-decoration:none;}
+.nav-links a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem;margin-left:2rem;}
+.hero{background:linear-gradient(135deg,var(--navy),#1a3a5c);color:white;padding:4rem 2rem;text-align:center;}
+.hero h1{font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:900;margin-bottom:1rem;}
+.body{max-width:600px;margin:3rem auto;padding:0 1.5rem;}
+.body p{line-height:1.8;color:#374151;margin-bottom:1.5rem;}
+.contact-box{background:white;border-radius:16px;padding:2rem;box-shadow:0 8px 30px rgba(0,0,0,0.08);}
+.contact-box h2{font-family:'Playfair Display',serif;font-size:1.4rem;margin-bottom:1rem;}
+.field{margin-bottom:1rem;}
+.field label{display:block;font-size:0.82rem;font-weight:500;color:#6b7280;margin-bottom:0.4rem;text-transform:uppercase;letter-spacing:0.05em;}
+.field input,.field textarea,.field select{width:100%;padding:0.75rem 1rem;border:2px solid #e5e7eb;border-radius:10px;font-size:1rem;font-family:'DM Sans',sans-serif;background:#f9fafb;}
+.field textarea{height:140px;resize:vertical;}
+.submit-btn{width:100%;padding:1rem;background:var(--navy);color:white;border:none;border-radius:10px;font-size:1rem;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;}
+.submit-btn:hover{background:var(--gold);color:var(--navy);}
+footer{background:var(--navy);color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.85rem;margin-top:3rem;}
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2FXHKFQLC2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2FXHKFQLC2');
+</script>
+</head>
+<body>
+<nav><a href="index.html" class="logo">MortgageWise</a><div class="nav-links"><a href="index.html">Calculator</a><a href="articles.html">Guides</a><a href="about.html">About</a></div></nav>
+<div class="hero"><h1>Contact Us</h1><p style="color:rgba(255,255,255,0.75)">We'd love to hear from you.</p></div>
+<div class="body">
+  <p>Have a question about our calculators, found an error in one of our articles, or want to suggest a topic? Send us a message and we'll get back to you within 2 business days.</p>
+  <div class="contact-box">
+    <h2>Send a Message</h2>
+    <div class="field"><label>Your Name</label><input type="text" placeholder="Jane Smith"/></div>
+    <div class="field"><label>Email Address</label><input type="email" placeholder="jane@example.com"/></div>
+    <div class="field"><label>Subject</label>
+      <select><option>Calculator Question</option><option>Article Feedback</option><option>Content Suggestion</option><option>Advertising Inquiry</option><option>Other</option></select>
+    </div>
+    <div class="field"><label>Message</label><textarea placeholder="Your message here..."></textarea></div>
+    <button class="submit-btn" onclick="alert('Thank you! We\'ll be in touch soon.')">Send Message →</button>
+  </div>
+  <p style="margin-top:1.5rem;font-size:0.85rem;color:#9ca3af;text-align:center">We typically respond within 1–2 business days. For urgent matters, please indicate that in your subject line.</p>
+</div>
+<footer><p>© 2025 MortgageWise · <a href="privacy.html" style="color:var(--gold)">Privacy Policy</a></p></footer>
+</body></html>

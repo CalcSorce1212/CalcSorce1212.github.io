@@ -5,6 +5,14 @@
 <title>Mortgage Guides & Home Buying Articles – MortgageWise</title>
 <meta name="description" content="Expert guides on mortgages, home buying, refinancing, credit scores, and down payments. Free, unbiased, and written in plain English."/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2FXHKFQLC2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2FXHKFQLC2');
+</script>
 <style>
 :root{--navy:#0d1b2a;--gold:#c9a84c;--cream:#f9f5ee;--gray:#6b7280;}
 *{box-sizing:border-box;margin:0;padding:0;}
@@ -16,7 +24,8 @@ nav{background:var(--navy);padding:0 2rem;display:flex;align-items:center;justif
 .hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,3rem);font-weight:900;margin-bottom:1rem;}
 .hero p{color:rgba(255,255,255,0.75);max-width:500px;margin:0 auto;}
 .section{max-width:1100px;margin:3rem auto;padding:0 1.5rem;}
-.articles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;}
+.section-label{font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--gold);font-weight:600;margin-bottom:1rem;}
+.articles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;margin-bottom:3rem;}
 .article-card{background:white;border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.07);transition:transform 0.2s,box-shadow 0.2s;text-decoration:none;color:inherit;display:block;}
 .article-card:hover{transform:translateY(-4px);box-shadow:0 12px 35px rgba(0,0,0,0.12);}
 .article-img{height:140px;display:flex;align-items:center;justify-content:center;font-size:3rem;}
@@ -27,32 +36,67 @@ nav{background:var(--navy);padding:0 2rem;display:flex;align-items:center;justif
 .article-read{font-size:0.8rem;color:var(--gold);font-weight:500;margin-top:0.8rem;display:block;}
 footer{background:var(--navy);color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.85rem;margin-top:3rem;}
 </style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2FXHKFQLC2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-2FXHKFQLC2');
-</script>
 </head>
 <body>
 <nav><a href="index.html" class="logo">MortgageWise</a><div class="nav-links"><a href="index.html">Calculator</a><a href="articles.html">Guides</a><a href="about.html">About</a></div></nav>
 <div class="hero"><h1>Home Buying Guides</h1><p>Everything you need to navigate the mortgage process — in plain English.</p></div>
+
 <div class="section">
+
+  <div class="section-label">Getting Started</div>
   <div class="articles-grid">
     <a href="article-first-time-buyer.html" class="article-card">
       <div class="article-img" style="background:#eef2ff">🏡</div>
       <div class="article-body"><div class="article-tag">First-Time Buyers</div><div class="article-title">The Complete First-Time Home Buyer's Guide for 2025</div><div class="article-excerpt">Everything from saving for a down payment to closing day.</div><span class="article-read">Read Guide →</span></div>
     </a>
+    <a href="article-how-long-to-buy.html" class="article-card">
+      <div class="article-img" style="background:#f0fdf4">⏱️</div>
+      <div class="article-body"><div class="article-tag">First-Time Buyers</div><div class="article-title">How Long Does It Take to Buy a House?</div><div class="article-excerpt">The real timeline from deciding to buy to getting your keys — month by month.</div><span class="article-read">Read Guide →</span></div>
+    </a>
+    <a href="article-hidden-costs.html" class="article-card">
+      <div class="article-img" style="background:#fff7ed">💸</div>
+      <div class="article-body"><div class="article-tag">Home Buying</div><div class="article-title">10 Hidden Costs of Buying a Home First-Time Buyers Always Miss</div><div class="article-excerpt">The purchase price is just the beginning. Here's what else you need to budget for.</div><span class="article-read">Read Guide →</span></div>
+    </a>
+    <a href="article-make-offer.html" class="article-card">
+      <div class="article-img" style="background:#fdf2f8">🤝</div>
+      <div class="article-body"><div class="article-tag">Home Buying</div><div class="article-title">How to Make a Competitive Offer on a House</div><div class="article-excerpt">What actually makes an offer stand out — and what sellers really care about.</div><span class="article-read">Read Guide →</span></div>
+    </a>
+    <a href="article-what-happens-closing.html" class="article-card">
+      <div class="article-img" style="background:#f0f9ff">📝</div>
+      <div class="article-body"><div class="article-tag">Home Buying</div><div class="article-title">What Happens at Closing? A Step by Step Breakdown</div><div class="article-excerpt">Closing day doesn't have to be scary. Here's exactly what to expect.</div><span class="article-read">Read Guide →</span></div>
+    </a>
+    <a href="article-why-calculator.html" class="article-card">
+      <div class="article-img" style="background:#eef2ff">🧮</div>
+      <div class="article-body"><div class="article-tag">Mortgage Tips</div><div class="article-title">Why Using a Mortgage Calculator Before House Hunting Can Save You Thousands</div><div class="article-excerpt">Five minutes with a calculator before you start looking prevents a lot of heartbreak.</div><span class="article-read">Read Guide →</span></div>
+    </a>
+  </div>
+
+  <div class="section-label">Money & Credit</div>
+  <div class="articles-grid">
     <a href="article-down-payment.html" class="article-card">
       <div class="article-img" style="background:#fef3c7">💰</div>
       <div class="article-body"><div class="article-tag">Down Payment</div><div class="article-title">How Much Down Payment Do You Really Need?</div><div class="article-excerpt">Debunking the 20% myth and low-down-payment options available today.</div><span class="article-read">Read Guide →</span></div>
+    </a>
+    <a href="article-save-down-payment.html" class="article-card">
+      <div class="article-img" style="background:#f0fdf4">🏦</div>
+      <div class="article-body"><div class="article-tag">Down Payment</div><div class="article-title">How to Save for a Down Payment Fast: A Step by Step Plan</div><div class="article-excerpt">Most people don't have a saving problem — they have a system problem.</div><span class="article-read">Read Guide →</span></div>
     </a>
     <a href="article-credit-score.html" class="article-card">
       <div class="article-img" style="background:#f0fdf4">📊</div>
       <div class="article-body"><div class="article-tag">Credit</div><div class="article-title">How Your Credit Score Affects Your Mortgage Rate</div><div class="article-excerpt">A 100-point difference can cost you tens of thousands of dollars.</div><span class="article-read">Read Guide →</span></div>
     </a>
+    <a href="article-credit-score-needed.html" class="article-card">
+      <div class="article-img" style="background:#fef3c7">🎯</div>
+      <div class="article-body"><div class="article-tag">Credit</div><div class="article-title">What Credit Score Do You Need to Buy a House in 2025?</div><div class="article-excerpt">The minimum score depends on your loan type. Here's exactly where you need to be.</div><span class="article-read">Read Guide →</span></div>
+    </a>
+    <a href="article-first-time-buyer-grants.html" class="article-card">
+      <div class="article-img" style="background:#f0f9ff">🎁</div>
+      <div class="article-body"><div class="article-tag">First-Time Buyers</div><div class="article-title">First Time Home Buyer Grants and Programs in 2025</div><div class="article-excerpt">Free money exists for first time buyers. Here's how to find and qualify for it.</div><span class="article-read">Read Guide →</span></div>
+    </a>
+  </div>
+
+  <div class="section-label">Loan Types & Refinancing</div>
+  <div class="articles-grid">
     <a href="article-fixed-vs-arm.html" class="article-card">
       <div class="article-img" style="background:#fdf2f8">⚖️</div>
       <div class="article-body"><div class="article-tag">Loan Types</div><div class="article-title">Fixed-Rate vs. Adjustable-Rate Mortgage: Which Is Right for You?</div><div class="article-excerpt">The pros, cons, and when each type makes the most sense.</div><span class="article-read">Read Guide →</span></div>
@@ -66,6 +110,7 @@ footer{background:var(--navy);color:rgba(255,255,255,0.6);padding:2rem;text-alig
       <div class="article-body"><div class="article-tag">Insurance</div><div class="article-title">What Is PMI and How Can You Avoid Paying It?</div><div class="article-excerpt">PMI adds hundreds monthly. Here's how to skip it or remove it.</div><span class="article-read">Read Guide →</span></div>
     </a>
   </div>
+
 </div>
 <footer><p>© 2025 MortgageWise · <a href="privacy.html" style="color:var(--gold)">Privacy Policy</a> · Not financial advice.</p></footer>
 </body></html>

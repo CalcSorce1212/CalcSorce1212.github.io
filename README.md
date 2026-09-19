@@ -14,13 +14,13 @@ MortgageWise is a free, no-signup mortgage calculator and home buying resource. 
 
 ## Features
 
-- 🧮 **Monthly Payment Calculator** — calculates principal, interest, tax, and insurance with a full amortization schedule
-- 💰 **Affordability Calculator** — tells you exactly how much home you can afford based on your income and debts
-- 🔄 **Refinance Savings Calculator** — shows your monthly savings, break-even point, and lifetime savings
-- 📊 **Pie Chart Breakdown** — visual breakdown of principal vs interest vs tax/insurance
-- 📋 **Full Amortization Table** — year by year payment breakdown for the full loan term
-- 📱 **Fully Mobile Responsive** — works on all screen sizes
-- ⚡ **No Signup Required** — 100% free, instant results
+- **Monthly Payment Calculator** — calculates principal, interest, tax, and insurance with a full amortization schedule
+- **Affordability Calculator** — tells you exactly how much home you can afford based on your income and debts
+- **Refinance Savings Calculator** — shows your monthly savings, break-even point, and lifetime savings
+- **Pie Chart Breakdown** — visual breakdown of principal vs interest vs tax/insurance
+- **Full Amortization Table** — year by year payment breakdown for the full loan term
+- **Fully Mobile Responsive** — works on all screen sizes
+- **No Signup Required** — 100% free, instant results
 
 -----
 
